@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChangerStatsWindow", "GameChangerStats\GameChangerStatsWindow.csproj", "{B2E998CA-DD15-4836-8FA3-4AEA125678DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChangerAPI", "..\GameChangerAPI\GameChangerAPI.csproj", "{5BFE7230-C700-46D9-96F3-117A1BE88DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChanger", "..\GameChanger\GameChanger.csproj", "{D897F14C-8452-449D-BD85-DB8DF2278982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChangerConnector", "..\GameChangerConnector\GameChangerConnector.csproj", "{AB4EC43A-47D0-4D8F-BBB4-522843054831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChangerTests", "..\GameChangerTests\GameChangerTests.csproj", "{E47C467F-D874-4CBE-969D-592F8DF1938F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChangerConnectorTests", "..\GameChangerConnectorTests\GameChangerConnectorTests.csproj", "{3967F495-7AF0-4345-A7AD-60BA5740318E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPageResponseWindow", "..\WebPageResponseWindow\WebPageResponseWindow.csproj", "{82813C01-FD52-4D86-A404-02DB88ECC104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E998CA-DD15-4836-8FA3-4AEA125678DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E998CA-DD15-4836-8FA3-4AEA125678DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E998CA-DD15-4836-8FA3-4AEA125678DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E998CA-DD15-4836-8FA3-4AEA125678DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFE7230-C700-46D9-96F3-117A1BE88DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFE7230-C700-46D9-96F3-117A1BE88DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFE7230-C700-46D9-96F3-117A1BE88DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFE7230-C700-46D9-96F3-117A1BE88DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D897F14C-8452-449D-BD85-DB8DF2278982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D897F14C-8452-449D-BD85-DB8DF2278982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D897F14C-8452-449D-BD85-DB8DF2278982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D897F14C-8452-449D-BD85-DB8DF2278982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4EC43A-47D0-4D8F-BBB4-522843054831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4EC43A-47D0-4D8F-BBB4-522843054831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4EC43A-47D0-4D8F-BBB4-522843054831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4EC43A-47D0-4D8F-BBB4-522843054831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47C467F-D874-4CBE-969D-592F8DF1938F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47C467F-D874-4CBE-969D-592F8DF1938F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47C467F-D874-4CBE-969D-592F8DF1938F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47C467F-D874-4CBE-969D-592F8DF1938F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3967F495-7AF0-4345-A7AD-60BA5740318E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3967F495-7AF0-4345-A7AD-60BA5740318E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3967F495-7AF0-4345-A7AD-60BA5740318E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3967F495-7AF0-4345-A7AD-60BA5740318E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82813C01-FD52-4D86-A404-02DB88ECC104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82813C01-FD52-4D86-A404-02DB88ECC104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82813C01-FD52-4D86-A404-02DB88ECC104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82813C01-FD52-4D86-A404-02DB88ECC104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

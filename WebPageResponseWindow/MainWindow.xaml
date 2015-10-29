@@ -1,0 +1,15 @@
+﻿<Window x:Class="WebPageResponseWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebPageResponseWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Margin="10,10,10,10">
+            <TextBox x:Name="textBoxWebPageResponse" Margin="10,10,10,10" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" Text="TextBox"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
