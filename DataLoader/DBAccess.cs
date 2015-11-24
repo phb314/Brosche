@@ -6,27 +6,27 @@ namespace DataLoader
 {
     public class DBAccess
     {
-        public string constructConnectionString()
+        public string constructConnectionString(string dbServerName, string databaseName)
         {
             System.Data.SqlClient.SqlConnectionStringBuilder builder =
               new System.Data.SqlClient.SqlConnectionStringBuilder();
 
-            builder["Data Source"] = "(local)";
+            builder["Data Source"] = dbServerName;
             builder["integrated Security"] = true;
-            builder["Initial Catalog"] = "CONTACT";
+            builder["Initial Catalog"] = databaseName;
 
             Console.WriteLine(builder.ConnectionString);
 
             return builder.ConnectionString;
         }
 
-        public List<IDBContact> FetchAllContacts()
+        public List<IDBContact> FetchAllContacts(string dbServerName, string databaseName)
         {
             List<IDBContact> dbContacts = new List<IDBContact>();
 
             try
             {
-                using (SqlConnection connection = new SqlConnection(constructConnectionString()))
+                using (SqlConnection connection = new SqlConnection(constructConnectionString(dbServerName, databaseName)))
                 {
                     connection.Open();
 

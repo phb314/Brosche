@@ -27,9 +27,7 @@ namespace DataLoader
         public int? GetInt32Nullable(int i)
         {
             if (!m_reader.IsDBNull(i))
-            {
                 return m_reader.GetInt32(i);
-            }
 
             return null;
         }
@@ -42,9 +40,7 @@ namespace DataLoader
         public string GetStringNullable(int i)
         {
             if (!m_reader.IsDBNull(i))
-            {
                 return m_reader.GetString(i);
-            }
 
             return null;
         }

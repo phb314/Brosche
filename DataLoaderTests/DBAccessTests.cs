@@ -10,9 +10,7 @@ namespace DataLoader.Tests
         {
             DBAccess target = new DBAccess();
 
-            target.FetchAllContacts();
-
-            Assert.Fail();
+            target.FetchAllContacts("(local)", "CONTACT");
         }
     }
 }
