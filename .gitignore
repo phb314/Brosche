@@ -50,3 +50,5 @@ HelloWorld/HelloWorld/bin/Debug/HelloWorld.vshost.exe.manifest
 *.cache
 HelloWorld/HelloWorld/obj/Debug/HelloWorld.pdb
 HelloWorld/HelloWorld/obj/Debug/HelloWorld.csproj.FileListAbsolute.txt
+*.dll
+*.pdb
